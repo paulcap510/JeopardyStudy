@@ -1,0 +1,36 @@
+/* navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.navbar {
+  background-color: #03254c; /* Darker navy background */
+  color: #ffd700; /* More vibrant yellow font color */
+  font-family: 'Kumbh Sans', sans-serif;
+  padding: 20px 40px;
+  text-align: center;
+  border-bottom: 3px solid #fbff00;  
+}
+
+.navbar-title {
+  margin-bottom: 15px;
+  font-size: 2em; /* Larger title */
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-links li .nav-link {
+  color: inherit; 
+  margin-right: 15px;
+  text-decoration: none; 
+  transition: color 0.3s, transform 0.3s; 
+}
+
+.navbar-links li .nav-link:hover {
+  color: #d4a017; 
+  transform: scale(1.1); 
+}

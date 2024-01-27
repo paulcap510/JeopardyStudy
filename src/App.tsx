@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import AddTopic from './components/AddTopic';
+import TopicsList from './components/TopicsList';
+import TopicDetails from './components/TopicDetails';
+import EditTopic from './components/EditTopic';
+
+const App: React.FC = () => {  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/add-topic" element={<AddTopic />} />
+        <Route path="/topics-list" element={<TopicsList />} />
+        <Route path="/topics/:topicId" element={<TopicDetails />} />{' '}
+        <Route path="/edit-topic/:topicId" element={<EditTopic />} />
+      </Routes>
+    </Router>
   );
 }
 

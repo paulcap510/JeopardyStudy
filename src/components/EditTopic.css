@@ -1,0 +1,107 @@
+/* EditTopic.css */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.edit-topic {
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #03254c; /* Dark navy color for text */
+  background-color: #03254c; /* Same background color as navbar */
+  padding: 20px;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.edit-topic h1 {
+  color: #ffd700; /* Vibrant yellow font color */
+  margin-bottom: 20px;
+}
+
+.edit-topic form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  max-width: 600px; /* Adjust width as needed */
+  margin: auto; /* Center the form */
+}
+
+.edit-topic label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffd700; /* Vibrant yellow font color */
+  width: 100%;
+}
+
+.edit-topic .input, .edit-topic select {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #d4a017; /* Dark yellow border */
+  font-size: 1em;
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.edit-topic button {
+  background-color: #ffd700;  
+  color: #03254c;  
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-bottom: 15px;
+  display: inline-block; /* Align button properly */
+  width: auto; /* Auto width for button */
+}
+
+.edit-topic button:hover {
+  border-radius: 15px; /* Hover effect */
+}
+
+.edit-topic .fact-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px; /* Set width of container */
+}
+
+.edit-topic .fact-input-container input {
+  flex-grow: 1; /* Allow input field to take available space */
+  margin-right: 10px; /* Space between input field and delete button */
+}
+
+.edit-topic .fact-input-container button {
+  background-color: #d9534f; /* Red color for delete button */
+  color: white;
+  padding: 10px 20px; /* Same padding as other buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto; /* Auto width for delete button */
+}
+
+.edit-topic .button-group {
+  text-align: center; /* Center align buttons */
+}
+
+.edit-topic .button-group button {
+  margin-top: 10px;
+  margin-right: 10px; /* Space between buttons */
+  display: inline-block; /* Align buttons inline */
+}
+
+.edit-topic .delete-button {
+  background-color: #d9534f; /* Red color for delete button */
+  color: white;
+  padding: 10px 20px; /* Same padding as other buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto; /* Auto width for delete button */
+  margin-top: 10px; /* Space above the button */
+}
+
+.edit-topic .delete-button:hover {
+  background-color: #c9302c; /* Slightly darker red on hover */
+}

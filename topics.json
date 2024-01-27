@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "Mercury (planet)",
+    "facts": [
+      "Closest planet to the sun ",
+      "Smallest planet in the solar system",
+      "Terrestrial planet (rocky and metallic surface), along with Earth, Mars, and Venus"
+    ],
+    "sources": "",
+    "category": "science",
+    "id": "8f4079d6-a1cd-4985-8677-8179dce38d30"
+  },
+  {
+    "topic": "Cicero",
+    "facts": [
+      "Roman statesman and philosopher active during 1st century BC",
+      "Originator of lorem ipsum (pain itself)",
+      "Big influence on Latin langauge ",
+      "Assassinated on orders of Marc Anthony ",
+      ""
+    ],
+    "sources": "Harrison, Stephen (2008). A Companion to Latin Literature. John Wiley & Sons. p. 31.",
+    "category": "ancient-history",
+    "id": "123b5dca-6bba-41ce-9321-1d8170bc5b94"
+  }
+]

@@ -1,0 +1,49 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.home-container {
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #03254c;
+  background-color: #03254c;
+  padding: 100px;
+  min-height: 100vh;
+}
+
+.home-container h1, .home-container h5 {
+  margin-bottom: 20px;
+  color: #ffd700;
+  font-size: 2em;
+}
+
+.buttons-div {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.buttons-div button {
+  background-color: #ffd700;
+  color: #03254c;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-decoration: none; /* Remove text decoration */
+  display: inline-block;
+}
+
+.buttons-div button:hover {
+  border-radius: 15px; /* Increased border-radius on hover */
+}
+
+/* Style for Link inside button */
+.buttons-div button a {
+  color: inherit; /* Inherit the color from the button */
+  text-decoration: none; /* Remove underline */
+  display: block;  
+  padding: 10px 20px;  
+}

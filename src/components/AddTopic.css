@@ -1,0 +1,62 @@
+/* AddTopic.css */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.add-topic {
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #03254c;  
+  background-color: #03254c; /* Same background color as navbar */
+  padding: 20px;
+  min-height: 100vh; 
+}
+
+.add-topic h1 {
+  color: #ffd700; /* Vibrant yellow font color */
+  margin-bottom: 20px;
+}
+
+.add-topic form {
+  /* display: block; */
+  display: inline-block;
+  text-align: left;
+  min-width: 600px;
+  margin: auto;
+}
+
+.add-topic label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffd700;  
+}
+
+.add-topic .input, .add-topic select {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #d4a017; /* Dark yellow border */
+  font-size: 1em; /* Match font size with other inputs */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.add-topic button {
+  background-color: #ffd700;  
+  color: #03254c;  
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-bottom: 15px;
+  
+}
+
+
+.add-topic button:hover {
+  border-radius: 15px; 
+}
+
+.button-div {
+  text-align: center;
+}
