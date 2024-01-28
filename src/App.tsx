@@ -7,6 +7,7 @@ import AddTopic from './components/AddTopic';
 import TopicsList from './components/TopicsList';
 import TopicDetails from './components/TopicDetails';
 import EditTopic from './components/EditTopic';
+import About from './components/About';
 
 const App: React.FC = () => {  
   return (
@@ -16,8 +17,9 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/add-topic" element={<AddTopic />} />
         <Route path="/topics-list" element={<TopicsList />} />
-        <Route path="/topics/:topicId" element={<TopicDetails />} />{' '}
+        <Route path="/topics/:topicId" element={<TopicDetails />} />
         <Route path="/edit-topic/:topicId" element={<EditTopic />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );

@@ -1,22 +1,20 @@
-/* AddTopic.css */
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 .add-topic {
   text-align: center;
   font-family: 'Kumbh Sans', sans-serif;
   color: #03254c;  
-  background-color: #03254c; /* Same background color as navbar */
+  background-color: #03254c; 
   padding: 20px;
   min-height: 100vh; 
 }
 
 .add-topic h1 {
-  color: #ffd700; /* Vibrant yellow font color */
+  color: #ffd700;  
   margin-bottom: 20px;
 }
 
 .add-topic form {
-  /* display: block; */
   display: inline-block;
   text-align: left;
   min-width: 600px;
@@ -34,9 +32,9 @@
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #d4a017; /* Dark yellow border */
-  font-size: 1em; /* Match font size with other inputs */
-  box-sizing: border-box; /* Include padding and border in the width */
+  border: 1px solid #d4a017; 
+  font-size: 1em;  
+  box-sizing: border-box;  
 }
 
 .add-topic button {
@@ -51,7 +49,6 @@
   margin-bottom: 15px;
   
 }
-
 
 .add-topic button:hover {
   border-radius: 15px; 

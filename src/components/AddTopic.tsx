@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';  
 import './AddTopic.css';
 
 interface TopicData {
@@ -51,7 +51,7 @@ const AddTopic = () => {
           sources: '',
           category: 'history',
         });
-        navigate('/topics-list'); // Navigate to topics-list page
+        navigate('/topics-list'); 
       })
       .catch((error) => {
         console.error('Error:', error);

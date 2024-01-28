@@ -16,11 +16,21 @@
       "Roman statesman and philosopher active during 1st century BC",
       "Originator of lorem ipsum (pain itself)",
       "Big influence on Latin langauge ",
-      "Assassinated on orders of Marc Anthony ",
-      ""
+      "Assassinated on orders of Marc Anthony "
     ],
-    "sources": "Harrison, Stephen (2008). A Companion to Latin Literature. John Wiley & Sons. p. 31.",
+    "sources": "Stephen (2008). A Companion to Latin Literature. John Wiley & Sons. p. 31.",
     "category": "ancient-history",
     "id": "123b5dca-6bba-41ce-9321-1d8170bc5b94"
+  },
+  {
+    "topic": "Sunspots",
+    "facts": [
+      "Areas that appear dark on the surface of the sun because they are cooler than other parts of the surface",
+      "Cycle are about 11 years long ",
+      "Earliest instance comes from Chinese IChing document in 800 BC"
+    ],
+    "sources": "",
+    "category": "science",
+    "id": "63b214a8-31bf-4e99-a60e-959d6cdf6990"
   }
 ]
