@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Jeopardy Study App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is an easy-to-use program that allows you to create trivia study pages about topics. I built it because I like to watch Jeopardy with my family, and I wanted a means to study common Jeopardy topics that was more interesting and intuitive than typical flashcards. This app lets you make your own Jeopardy study cards for specific topics and easily add or edit facts and delete topic cards.
+
+## Why use Jeopardy Study App?
+
+Traditional study methods like flashcards, rote memorization, and textbook reading can be effective but often lack interactivity and visual appeal. I tried a lot of different ways to study Jeopardy trivia, but I wanted a simple, user-friendly app that I could run on my local machine that looks cool, is super responsive, and is easy to use. I built this app using [TypeScript](https://www.typescriptlang.org/), [React](https://react.dev/), and a simple [Node.js](https://nodejs.org/en) server that allows you to store data for topics, facts, and sources in an easy-to-access JSON file. 
+
+## Setup and Installation
+
+Follow these steps to set up and run the JEOPARDY STUDY APP on your local machine.
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager): Ensure you have Node.js and npm installed on your computer. You can download them from [https://nodejs.org/](https://nodejs.org/).
+
+### Installation
+
+1. **Clone the Repository**:
+
+   - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+   - Clone the app repository to your local machine:
+     ```
+     git clone https://github.com/paulcap510/JeopardyStudy.git
+     ```
+   - Navigate to the project directory:
+     ```
+     cd JeopardyStudy
+     ```
+3. **Install Dependencies**:
+   - Install the necessary Node.js dependencies defined in `package.json`:
+     ```
+     npm install
+     ```
+
+4. **Configure the Application**
+   - The `topics.json` file contains some sample data for how your data will be saved and accessed in JSON format. Each entry will have a unique id (uuid), a topic name, facts, sources, and an optional category.
+  
+    
+5. **Run the Application**:
+   - To use the application, you will need to start the frontend and the backend server. To start the frontend server, run:
+     ```
+     npm start
+     ```
+   - The app should now be running on your local server (usually at `http://localhost:3000` or similar).
+   - Then, to start the backend server `simpleserver.js` (located in root directory), run:
+     ```
+     node simpleserver.js
+     ```
+   - This will start the backend server on port 3001 (you can change this in the server file).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following key scripts:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload if you make edits.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
+Builds the app for production to the `build` folder. The build is minified, and the filenames include hashes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For more information on these scripts, see the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Using the App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click 'Study' to review your cards and click 'Add Topic' to add a new study card about a new topic
+- In 'Add Topic', you can click the 'Add Fact' button to dynamically create a new option for a fact input
+- All the facts you input will displayed as list bullet points on the Study cards when you study them
+- You can also delete facts and cards by clicking the 'Edit' button on a Study card
 
-### `npm run eject`
+### Beta Note
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This app is still in the early stages of development. More features will be added in the near future.
